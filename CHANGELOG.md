@@ -5,6 +5,14 @@ Format: `## [version] - date`
 
 ---
 
+## [1.0.3] - 2026-04-05
+
+**Footer version number / Footer 版本号显示**
+- Footer now displays app version from `package.json` via Vite `define` injection (`__APP_VERSION__`)
+- Footer 自动读取 `package.json` 版本号并展示，无需手动维护
+
+---
+
 ## [1.0.2] - 2026-04-05
 
 **Footer redesign & MIT license / Footer 重设计 + MIT 授权**
