@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": "Fast Pixelate Image",
+    "tagline": "Pixéliseur d'images en ligne gratuit"
+  },
+  "upload": {
+    "drag_drop": "Glissez-déposez votre image ici",
+    "or_click": "ou cliquez pour parcourir",
+    "supported": "Formats JPG, PNG, WEBP • Max 10 Mo",
+    "placeholder": "Uploadez une image pour commencer"
+  },
+  "controls": {
+    "pixel_size": "Taille des pixels",
+    "color_palette": "Palette de couleurs",
+    "palette_original": "Original",
+    "palette_grayscale": "Niveaux de gris",
+    "palette_8bit": "8 bits",
+    "palette_custom": "Personnalisé",
+    "color_count": "Nombre de couleurs",
+    "contrast": "Contraste",
+    "brightness": "Luminosité",
+    "reset": "Réinitialiser",
+    "show_grid": "Afficher la grille"
+  },
+  "preview": {
+    "original": "Original",
+    "pixelated": "Pixélisé",
+    "drag_to_compare": "Faites glisser le séparateur pour comparer",
+    "blocks": "blocs",
+    "processing": "Traitement…"
+  },
+  "download": {
+    "button": "Télécharger l'image",
+    "format": "Format",
+    "png_desc": "Sans perte",
+    "jpeg_desc": "Taille réduite",
+    "webp_desc": "Meilleure qualité",
+    "with_grid": "Exporter avec les lignes de grille"
+  },
+  "ads": {
+    "label": "Publicité"
+  },
+  "info": {
+    "what_title": "Qu'est-ce que la pixélisation d'image ?",
+    "what_text": "Pixéliser une image consiste à la diviser en une grille de blocs de couleur uniforme, produisant un effet mosaïque ou rétro de « pixel art ». Cette technique est largement utilisée pour flouter des visages, censurer des informations privées, créer des visuels de style 8 bits ou ajouter un effet créatif à n'importe quelle photo. Fast Pixelate Image vous permet de pixéliser vos images instantanément dans votre navigateur — sans upload, sans compte, sans attente.",
+    "adv_title": "Pourquoi utiliser Fast Pixelate Image ?",
+    "adv1": "100 % Privé — Vos images ne quittent jamais votre appareil. Tout le traitement est effectué localement dans votre navigateur.",
+    "adv2": "Aperçu instantané — Voyez le résultat en temps réel en déplaçant le curseur de taille de pixel.",
+    "adv3": "Gratuit pour toujours — Pas d'abonnement, pas de filigrane, pas de carte bancaire.",
+    "adv4": "Formats multiples — Téléchargez votre image pixélisée en PNG (sans perte), JPEG ou WebP.",
+    "adv5": "Superposition de grille — Exportez optionnellement avec des lignes de grille pour mettre en évidence chaque bloc de pixel.",
+    "adv6": "Multilingue — Disponible en anglais, chinois simplifié, chinois traditionnel, russe et français.",
+    "faq_title": "Questions fréquentes",
+    "faq1q": "Comment pixéliser une image en ligne ?",
+    "faq1a": "Uploadez votre image en la glissant dans la zone de dépôt ou en cliquant pour parcourir. Ajustez le curseur Taille des pixels, prévisualisez le résultat, puis cliquez sur Télécharger. Aucune inscription requise.",
+    "faq2q": "Mon image est-elle envoyée à un serveur ?",
+    "faq2a": "Non. Tout le traitement d'image s'effectue localement dans votre navigateur via l'API Canvas. Vos images ne quittent jamais votre appareil et ne sont jamais envoyées à un serveur.",
+    "faq3q": "Quels formats d'image sont pris en charge ?",
+    "faq3a": "Vous pouvez uploader des fichiers JPG, PNG, WebP et GIF (jusqu'à 10 Mo). Vous pouvez télécharger le résultat en PNG, JPEG ou WebP.",
+    "faq4q": "À quoi sert le réglage de la taille des pixels ?",
+    "faq4a": "La taille des pixels (2–64 px) contrôle la taille de chaque bloc de couleur. Une valeur plus petite donne une mosaïque plus fine, une valeur plus grande produit un effet de pixélisation plus marqué.",
+    "faq5q": "Qu'est-ce que l'option de superposition de grille ?",
+    "faq5a": "Lorsqu'elle est activée, des lignes de grille visibles sont dessinées à chaque limite de bloc de pixel dans l'image exportée. Cela rend la structure des pixels clairement visible — utile pour les présentations ou les projets de pixel art."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "last_updated": "Dernière mise à jour : avril 2026",
+    "back_home": "← Retour à l'accueil",
+    "intro_title": "Aperçu",
+    "intro_text": "Fast Pixelate Image est un outil gratuit de pixélisation d'images basé sur le navigateur. Cette politique explique quelles données nous collectons (très peu) et comment nous gérons votre vie privée.",
+    "data_title": "Données que nous ne collectons PAS",
+    "data_text": "Nous ne collectons, stockons ni ne transmettons aucune image que vous traitez. Vos photos ne quittent jamais votre appareil. Aucune inscription, connexion ou information personnelle n'est requise pour utiliser cet outil.",
+    "local_title": "Traitement local uniquement",
+    "local_text": "Tout le traitement d'image est effectué entièrement dans votre navigateur à l'aide de l'API Canvas et des Web Workers. Aucune donnée d'image n'est envoyée à un serveur à aucun moment.",
+    "ads_title": "Publicité",
+    "ads_text": "Ce site affiche des publicités servies par Google AdSense. Google peut utiliser des cookies pour afficher des publicités pertinentes en fonction de votre historique de navigation. Vous pouvez vous désinscrire via les paramètres publicitaires de Google ou en utilisant un bloqueur de publicités.",
+    "analytics_title": "Analyses",
+    "analytics_text": "Nous pouvons utiliser des analyses anonymisées et respectueuses de la vie privée (telles que Cloudflare Web Analytics) pour comprendre les tendances globales du trafic. Aucune donnée personnellement identifiable n'est collectée.",
+    "cookies_title": "Cookies",
+    "cookies_text": "Nous utilisons localStorage pour mémoriser votre langue et votre préférence de thème. Google AdSense peut définir des cookies supplémentaires pour la personnalisation des publicités. Aucun autre cookie n'est défini par ce site.",
+    "contact_title": "Contact",
+    "contact_text": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à shucarlet@gmail.com."
+  },
+  "footer": {
+    "copyright": "© 2025 Fast Pixelate Image · Gratuit · Privé · Instantané",
+    "privacy": "Politique de confidentialité",
+    "contact": "Contact"
+  },
+  "quickstart": {
+    "title": "Démarrage rapide",
+    "subtitle": "Sélectionnez un style de pixel pour commencer",
+    "fine": "Fin",
+    "standard": "Standard",
+    "retro": "Rétro",
+    "coarse": "Grossier",
+    "hint": "Cliquez pour sélectionner et personnaliser davantage"
+  }
+}

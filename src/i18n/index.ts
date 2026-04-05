@@ -6,6 +6,7 @@ import en from './locales/en.json';
 import zh from './locales/zh.json';
 import zhTW from './locales/zh-TW.json';
 import ru from './locales/ru.json';
+import fr from './locales/fr.json';
 
 i18n
   .use(LanguageDetector)       // 自动检测浏览器语言
@@ -16,6 +17,7 @@ i18n
       zh:    { translation: zh },
       'zh-TW': { translation: zhTW },
       ru:    { translation: ru },
+      fr:    { translation: fr },
     },
     fallbackLng: 'en',         // 未匹配语言时回退到英文
     interpolation: {

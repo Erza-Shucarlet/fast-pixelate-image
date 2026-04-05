@@ -6,6 +6,7 @@ const LANGUAGES = [
   { code: 'zh',    label: '中' },
   { code: 'zh-TW', label: '繁' },
   { code: 'ru',    label: 'РУ' },
+  { code: 'fr',    label: 'FR' },
 ];
 
 export function Header() {

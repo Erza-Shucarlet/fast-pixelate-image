@@ -5,6 +5,15 @@ Format: `## [version] - date`
 
 ---
 
+## [1.1.0] - 2026-04-05
+
+**法语支持 / French language support**
+- 新增法语 (FR) 界面，Header 增加 FR 切换按钮
+- 新增 `src/i18n/locales/fr.json`，涵盖全部翻译键
+- 同步更新 en/zh/zh-TW/ru 的 `adv6` 字段，加入法语说明
+
+---
+
 ## [1.0.3] - 2026-04-05
 
 **Footer version number / Footer 版本号显示**
