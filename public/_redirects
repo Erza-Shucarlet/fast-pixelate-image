@@ -1,5 +1,6 @@
 # Cloudflare Pages routing
-# /privacy → privacy.html（MPA 子页面）
+# 防止 /privacy.html 被直接访问形成重复页面
+/privacy.html  /privacy  301
 /privacy  /privacy.html  200
 
 # SPA fallback：所有其他路径交给 index.html 处理
