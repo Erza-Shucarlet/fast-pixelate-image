@@ -5,6 +5,18 @@ Format: `## [version] - date`
 
 ---
 
+## [1.0.2] - 2026-04-05
+
+**Footer redesign & MIT license / Footer 重设计 + MIT 授权**
+- Footer redesigned to single centered line: copyright slogan · Privacy Policy · Contact; removed background/border; text-xs subtle color
+- Footer 重设计为单行居中：版权口号 · 隐私政策 · 联系我们；移除背景和边框；字号缩小至 text-xs
+- Footer copyright text updated to concise slogan: `© 2025 Fast Pixelate Image · Free · Private · Instant` (all 4 languages)
+- 版权文案改为极简口号，四语言同步更新
+- Added MIT License (`LICENSE` file)
+- 新增 MIT 开源协议文件
+
+---
+
 ## [1.0.1] - 2026-04-05
 
 **Upload zone visual enhancement / 上传区视觉强化**
