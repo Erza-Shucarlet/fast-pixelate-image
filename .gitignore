@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# lock 文件不提交，让 CI 环境自行生成（避免跨平台可选依赖冲突）
+package-lock.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
