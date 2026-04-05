@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": "Fast Pixelate Image",
+    "tagline": "Free Online Image Pixelator"
+  },
+  "upload": {
+    "drag_drop": "Drag & drop your image here",
+    "or_click": "or click to browse",
+    "supported": "Supports JPG, PNG, WEBP • Max 10MB",
+    "placeholder": "Upload an image to get started"
+  },
+  "controls": {
+    "pixel_size": "Pixel Size",
+    "color_palette": "Color Palette",
+    "palette_original": "Original",
+    "palette_grayscale": "Grayscale",
+    "palette_8bit": "8-bit",
+    "palette_custom": "Custom",
+    "color_count": "Color Count",
+    "contrast": "Contrast",
+    "brightness": "Brightness",
+    "reset": "Reset to Default",
+    "show_grid": "Show Grid"
+  },
+  "preview": {
+    "original": "Original",
+    "pixelated": "Pixelated",
+    "drag_to_compare": "Drag the divider to compare",
+    "blocks": "blocks",
+    "processing": "Processing…"
+  },
+  "download": {
+    "button": "Download Image",
+    "format": "Format",
+    "png_desc": "Lossless",
+    "jpeg_desc": "Smaller size",
+    "webp_desc": "Best quality",
+    "with_grid": "Export with grid lines"
+  },
+  "ads": {
+    "label": "Advertisement"
+  },
+  "info": {
+    "what_title": "What is Pixelate Image?",
+    "what_text": "Pixelating an image means dividing it into a grid of uniform colored blocks, producing a mosaic or retro \"pixel art\" effect. It is widely used to blur faces, censor private information, create 8-bit style artwork, or add a creative visual effect to any photo. Fast Pixelate Image lets you pixelate images instantly in your browser — no uploads, no accounts, no waiting.",
+    "adv_title": "Why Use Fast Pixelate Image?",
+    "adv1": "100% Private — Images never leave your device. All processing is done locally in your browser.",
+    "adv2": "Instant Preview — See the pixelated result in real-time as you drag the pixel size slider.",
+    "adv3": "Free Forever — No subscription, no watermark, no credit card required.",
+    "adv4": "Multiple Formats — Download your pixelated image as PNG (lossless), JPEG, or WebP.",
+    "adv5": "Grid Overlay — Optionally export with grid lines to highlight each pixel block boundary.",
+    "adv6": "Multi-Language — Available in English, Simplified Chinese, Traditional Chinese, and Russian.",
+    "faq_title": "Frequently Asked Questions",
+    "faq1q": "How do I pixelate an image online?",
+    "faq1a": "Upload your image by dragging it onto the upload zone or clicking to browse. Adjust the Pixel Size slider to set the block size, preview the result, then click Download. No sign-up required.",
+    "faq2q": "Is my image uploaded to a server?",
+    "faq2a": "No. All image processing happens locally in your browser using the Canvas API. Your images never leave your device and are never sent to any server.",
+    "faq3q": "What image formats are supported?",
+    "faq3a": "You can upload JPG, PNG, WebP, and GIF files (up to 10 MB). You can download the result as PNG, JPEG, or WebP.",
+    "faq4q": "What does the pixel size setting do?",
+    "faq4a": "The pixel size (2–64 px) controls how large each colored block is. A smaller value gives a finer mosaic, while a larger value produces a more dramatic, recognizable pixelation effect.",
+    "faq5q": "What is the grid overlay option?",
+    "faq5a": "When enabled, visible grid lines are drawn at each pixel block boundary in the exported image. This makes the pixel structure clearly visible — useful for presentations or pixel art projects."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: April 2026",
+    "back_home": "← Back to Home",
+    "intro_title": "Overview",
+    "intro_text": "Fast Pixelate Image is a free, browser-based image pixelation tool. This policy explains what data we collect (very little) and how we handle your privacy.",
+    "data_title": "Data We Do NOT Collect",
+    "data_text": "We do not collect, store, or transmit any images you process. Your photos never leave your device. We do not require registration, login, or any personal information to use this tool.",
+    "local_title": "Local Processing Only",
+    "local_text": "All image processing is performed entirely within your browser using the Canvas API and Web Workers. No image data is sent to any server at any point.",
+    "ads_title": "Advertising",
+    "ads_text": "This site displays ads served by Google AdSense. Google may use cookies to show relevant ads based on your browsing history. You can opt out via Google's Ad Settings or by using an ad blocker.",
+    "analytics_title": "Analytics",
+    "analytics_text": "We may use anonymised, privacy-respecting analytics (such as Cloudflare Web Analytics) to understand aggregate traffic patterns. No personally identifiable data is collected.",
+    "cookies_title": "Cookies",
+    "cookies_text": "We use localStorage to remember your language and theme preference. Google AdSense may set additional cookies for ad personalisation. No other cookies are set by this site.",
+    "contact_title": "Contact",
+    "contact_text": "If you have any questions about this privacy policy, please contact us at shucarlet@gmail.com."
+  },
+  "footer": {
+    "copyright": "© 2025 Fast Pixelate Image. Free to use.",
+    "privacy": "Privacy Policy",
+    "contact": "Contact"
+  },
+  "quickstart": {
+    "title": "Quick Start",
+    "subtitle": "Select a pixel style to get started",
+    "fine": "Fine",
+    "standard": "Standard",
+    "retro": "Retro",
+    "coarse": "Bold",
+    "hint": "Click to select and customize further"
+  }
+}

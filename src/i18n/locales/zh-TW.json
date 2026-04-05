@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": "Fast Pixelate Image",
+    "tagline": "免費線上圖片像素化工具"
+  },
+  "upload": {
+    "drag_drop": "拖曳圖片到此處上傳",
+    "or_click": "或點擊選擇檔案",
+    "supported": "支援 JPG、PNG、WEBP • 最大 10MB",
+    "placeholder": "上傳圖片即可開始"
+  },
+  "controls": {
+    "pixel_size": "像素塊大小",
+    "color_palette": "調色板模式",
+    "palette_original": "原色",
+    "palette_grayscale": "灰階",
+    "palette_8bit": "8位元色",
+    "palette_custom": "自訂",
+    "color_count": "顏色數量",
+    "contrast": "對比度",
+    "brightness": "亮度",
+    "reset": "重設為預設值",
+    "show_grid": "顯示網格線"
+  },
+  "preview": {
+    "original": "原圖",
+    "pixelated": "像素化效果",
+    "drag_to_compare": "拖動分隔條對比效果",
+    "blocks": "個像素塊",
+    "processing": "處理中…"
+  },
+  "download": {
+    "button": "下載圖片",
+    "format": "下載格式",
+    "png_desc": "無損壓縮",
+    "jpeg_desc": "體積更小",
+    "webp_desc": "最佳品質",
+    "with_grid": "匯出時包含網格線"
+  },
+  "ads": {
+    "label": "廣告"
+  },
+  "info": {
+    "what_title": "什麼是像素化圖片？",
+    "what_text": "像素化圖片是指將影像劃分為均勻的彩色方塊網格，產生馬賽克或復古「像素藝術」效果。它廣泛用於模糊人臉、遮蓋私密資訊、製作 8 位元風格畫面，或為照片添加創意視覺效果。Fast Pixelate Image 讓您在瀏覽器中即時完成像素化處理——無需上傳、無需註冊、無需等待。",
+    "adv_title": "為何選擇 Fast Pixelate Image？",
+    "adv1": "完全私密——圖片不會離開您的裝置，所有處理均在瀏覽器本機完成。",
+    "adv2": "即時預覽——拖動像素大小滑桿，立即查看像素化效果。",
+    "adv3": "永久免費——無訂閱費、無浮水印、無需信用卡。",
+    "adv4": "多種格式——以 PNG（無損）、JPEG 或 WebP 下載像素化圖片。",
+    "adv5": "網格疊加——可選匯出帶網格線的圖片，清晰展示每個像素方塊邊界。",
+    "adv6": "多語言支援——提供英文、簡體中文、繁體中文和俄文介面。",
+    "faq_title": "常見問題",
+    "faq1q": "如何在線上像素化圖片？",
+    "faq1a": "將圖片拖入上傳區域或點擊瀏覽選擇檔案。調整「像素塊大小」滑桿設定方塊尺寸，預覽效果後點擊「下載圖片」即可。無需註冊帳號。",
+    "faq2q": "我的圖片會上傳到伺服器嗎？",
+    "faq2a": "不會。所有圖片處理均透過瀏覽器的 Canvas API 在本機完成，圖片從不離開您的裝置，也不會傳送至任何伺服器。",
+    "faq3q": "支援哪些圖片格式？",
+    "faq3a": "支援上傳 JPG、PNG、WebP 和 GIF 檔案（最大 10 MB），下載格式支援 PNG、JPEG 或 WebP。",
+    "faq4q": "像素大小設定有什麼作用？",
+    "faq4a": "像素大小（2–64 px）控制每個彩色方塊的尺寸。數值越小，馬賽克越細緻；數值越大，像素化效果越明顯。",
+    "faq5q": "網格疊加選項是什麼？",
+    "faq5a": "啟用後，匯出的圖片將在每個像素塊邊界處繪製可見的網格線，使像素結構清晰可辨——適用於簡報或像素藝術專案。"
+  },
+  "privacy": {
+    "title": "隱私權政策",
+    "last_updated": "最後更新：2026年4月",
+    "back_home": "← 返回首頁",
+    "intro_title": "概述",
+    "intro_text": "Fast Pixelate Image 是一款免費的瀏覽器端圖片像素化工具。本政策說明我們收集哪些資料（極少）以及如何處理您的隱私。",
+    "data_title": "我們不收集的資料",
+    "data_text": "我們不收集、儲存或傳輸您處理的任何圖片。您的照片從不離開您的裝置。使用本工具無需註冊、登入或提供任何個人資訊。",
+    "local_title": "僅限本機處理",
+    "local_text": "所有圖片處理完全在您的瀏覽器內透過 Canvas API 和 Web Worker 執行，圖片資料不會在任何時候傳送至任何伺服器。",
+    "ads_title": "廣告",
+    "ads_text": "本網站展示由 Google AdSense 提供的廣告。Google 可能使用 Cookie 根據您的瀏覽記錄顯示相關廣告。您可以透過 Google 廣告設定或廣告攔截器選擇退出。",
+    "analytics_title": "統計分析",
+    "analytics_text": "我們可能使用匿名、注重隱私的分析工具（如 Cloudflare Web Analytics）了解整體流量趨勢，不收集任何個人身份資訊。",
+    "cookies_title": "Cookies",
+    "cookies_text": "我們使用 localStorage 記住您的語言和主題偏好。Google AdSense 可能設定額外的 Cookie 用於廣告個人化。本網站不設定其他 Cookie。",
+    "contact_title": "聯絡我們",
+    "contact_text": "如對本隱私權政策有任何疑問，請發送電子郵件至 shucarlet@gmail.com 聯絡我們。"
+  },
+  "footer": {
+    "copyright": "© 2025 Fast Pixelate Image. 免費使用。",
+    "privacy": "隱私權政策",
+    "contact": "聯絡我們"
+  },
+  "quickstart": {
+    "title": "快速開始",
+    "subtitle": "選擇一種像素風格即可開始",
+    "fine": "精細",
+    "standard": "標準",
+    "retro": "復古",
+    "coarse": "粗粒",
+    "hint": "點擊選擇後可繼續自訂調整"
+  }
+}

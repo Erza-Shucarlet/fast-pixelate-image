@@ -1,0 +1,6 @@
+# Cloudflare Pages routing
+# /privacy → privacy.html（MPA 子页面）
+/privacy  /privacy.html  200
+
+# SPA fallback：所有其他路径交给 index.html 处理
+/*  /index.html  200
