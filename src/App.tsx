@@ -70,9 +70,7 @@ export default function App() {
           </div>
 
           {/* 上传区域 */}
-          <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm p-5">
-            <UploadZone onFileSelect={handleLoadImage} hasImage={hasImage} />
-          </div>
+          <UploadZone onFileSelect={handleLoadImage} hasImage={hasImage} />
 
           {error && (
             <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3 flex items-center gap-2">
@@ -118,7 +116,9 @@ export default function App() {
             </>
           )}
 
-          <InfoSection />
+          <div className={`border-t border-gray-200 dark:border-gray-800 pt-10 ${hasImage ? 'mt-8' : 'mt-24'}`}>
+            <InfoSection />
+          </div>
         </div>
 
         <AdSidebar position="right" />

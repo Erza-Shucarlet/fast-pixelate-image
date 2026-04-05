@@ -5,6 +5,23 @@ Format: `## [version] - date`
 
 ---
 
+## [1.0.1] - 2026-04-05
+
+**Upload zone visual enhancement / 上传区视觉强化**
+- Redesigned upload zone: large gradient card with w-24 circular icon, purple "+" badge, group hover animations; compact replace-image bar when image is loaded
+- 重设计上传区：大型渐变卡片，圆形图标区 + 紫色「+」徽章 + hover 动效；有图片时收缩为紧凑换图条
+
+**SEO content repositioned / SEO 内容下移**
+- InfoSection pushed further down (`mt-24` when no image, `mt-8` with image) with divider to keep user focus on the main tool
+- InfoSection 无图片时下移至 `mt-24`，保持用户注意力在主要操作区
+
+**Routing & SEO fixes / 路由与 SEO 修复**
+- `_redirects`: added `301` redirect for `/privacy.html` → `/privacy` to prevent duplicate pages
+- `privacy.html`: added canonical tag pointing to `/privacy`
+- `_redirects` 新增 `/privacy.html → /privacy 301` 防重复页面；`privacy.html` 补充 canonical
+
+---
+
 ## [1.0.0] - 2026-04-05
 
 **Quick Start preset panel / 快速开始预设面板**
