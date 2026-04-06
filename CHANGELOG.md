@@ -5,6 +5,15 @@ Format: `## [version] - date`
 
 ---
 
+## [1.1.1] - 2026-04-06
+
+**SEO: 主页单词数不足修复**
+- 将完整的 What is / 优势列表 / FAQ 内容以 `<noscript>` 形式内嵌进 `index.html`
+- 不执行 JS 的搜索引擎爬虫可读取约 350+ 个单词，满足 200 词最低要求
+- `<div id="root">` 清空，避免 React 挂载前内容闪烁
+
+---
+
 ## [1.1.0] - 2026-04-05
 
 **法语支持 / French language support**
